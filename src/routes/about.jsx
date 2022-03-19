@@ -42,6 +42,9 @@ export default function About() {
         <li>173% quota</li>
         <li>feb 2020 all-company mvp</li>
       </ul>
+      <h2>Education</h2>
+      <h3>Iowa State University</h3>
+      <p>B.S. Managerial Economics</p>
     </div>
   );
 }
