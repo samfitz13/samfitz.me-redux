@@ -7,7 +7,7 @@ export default function Blog() {
         <Link to="/">home</Link> <Link to="/about">about</Link>
       </h1>
       <h1>this is my blog page</h1>
-      <p>I haven't posted anything yet.</p>
+      <p>I haven't posted anything yet<Link to='/halloween'>.</Link></p>
     </div>
   );
 }
