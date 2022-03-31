@@ -4,7 +4,6 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import App from './App'
 import About from './routes/about'
 import Blog from './routes/blog'
-import Halloween from './routes/halloween'
 
 ReactDOM.render(
   <BrowserRouter>
