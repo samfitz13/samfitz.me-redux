@@ -1,3 +1,4 @@
+import Helmet from "react-helmet";
 import { Link } from "react-router-dom";
 import "./App.css";
 
@@ -17,6 +18,9 @@ There will be no purple. purple is forbidden.
 const App = () => {
   return (
     <div className="main">
+      <Helmet>
+        <title>samfitz.me</title>
+      </Helmet>
       <h1 id="main-heading">sam fitzgerald</h1>
       <p>
         I live in New York City, I work at{" "}

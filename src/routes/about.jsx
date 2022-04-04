@@ -1,8 +1,12 @@
+import Helmet from "react-helmet";
 import { Link } from "react-router-dom";
 
 export default function About() {
   return (
     <div className="main">
+      <Helmet>
+        <title>about</title>
+      </Helmet>
       <h1>
         <Link to="/">home</Link> <Link to="/blog">blog</Link>
       </h1>
